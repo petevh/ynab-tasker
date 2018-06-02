@@ -5,7 +5,7 @@
 text
 account_id
 Account ID
-Enter Account ID
+Account ID
 =:==:=
 ",
 "date": "
