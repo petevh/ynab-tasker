@@ -21,7 +21,7 @@ yyyy-mm-dd
 text
 amount
 Amount
-The transaction amount in milliunits format
+The transaction amount in milliunits format (eg 123.45 = 123450).
 =:==:=
 ,
 "payee_id": "
@@ -58,10 +58,11 @@ Notes (optional)
 ",
 "cleared": "
 =:==:=
-text
+options
 cleared
 Cleared
 The cleared status of the transaction
+cleared:Cleared,uncleared:Uncleared,reconciled:Reconciled
 =:==:=
 ",
 "approved": 
@@ -74,10 +75,11 @@ Whether or not the transaction is approved. If not supplied, transaction will be
 ,
 "flag_color": "
 =:==:=
-text
+options
 flag_color
 Flag_Color
-The transaction flag
+The transaction flag 
+red:Red,orange:Orange,yellow:Yellow,green:Green,blue:Blue,purple:Purple
 =:==:=
 ",
 "import_id": "
