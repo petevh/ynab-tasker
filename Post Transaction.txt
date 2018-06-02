@@ -58,11 +58,11 @@ Notes (optional)
 ",
 "cleared": "
 =:==:=
-text
+options
 cleared
 Cleared
 The cleared status of the transaction
-cleared, uncleared, reconciled
+cleared:Cleared,uncleared:Uncleared,reconciled:Reconciled
 =:==:=
 ",
 "approved": 
@@ -79,7 +79,7 @@ options
 flag_color
 Flag_Color
 The transaction flag 
-red, orange, yellow, green, blue, purple
+red:Red,orange:Orange,yellow:Yellow,green:Green,blue:Blue,purple:Purple
 =:==:=
 ",
 "import_id": "
