@@ -1,0 +1,189 @@
+<TaskerData sr="" dvi="1" tv="5.1m">
+	<Task sr="task13">
+		<cdate>1527959788692</cdate>
+		<edate>1528049459563</edate>
+		<id>13</id>
+		<nme>Parse SMS - Standard Chartered</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%space</Str>
+			<Str sr="arg1" ve="3"> </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%smsbody</Str>
+			<Str sr="arg1" ve="3">You have spent USD 234.46 at FRIENDSP               CASTLETOWN    GBR on your credit card ending with 6949 on 31 May. Avail Limit:AED 13426.17.</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%day</Str>
+			<Str sr="arg1" ve="3">%smsbody2224</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>597</code>
+			<Str sr="arg0" ve="3">%smsbody2225</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">%month</Str>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%monthlookup</Str>
+			<Str sr="arg1" ve="3">Jan01JanFeb02FebMar03MarApr04AprMay05MayJun06JunJul07JulAug08AugSep09SepOct10OctNov11NovDec12Dec</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%monthlookup</Str>
+			<Str sr="arg1" ve="3">%month</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>597</code>
+			<Str sr="arg0" ve="3">%DATE</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg2" val="4"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">%year</Str>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%mydate</Str>
+			<Str sr="arg1" ve="3">%year-%monthlookup2-%day</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%smsbody</Str>
+			<Str sr="arg1" ve="3">have spent</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%smsbody2</Str>
+			<Str sr="arg1" ve="3">%space</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%currency</Str>
+			<Str sr="arg1" ve="3">%smsbody22</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Amount</Str>
+			<Str sr="arg1" ve="3">%smsbody23</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%smsbody</Str>
+			<Str sr="arg1" ve="3">have spent</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Currency: %currency
+Amount: %Amount
+Card ending: %Card
+Payee:%payeename
+City:%payeecity
+Country:%payeecountry
+Date:%mydate</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%payeename</Str>
+			<Str sr="arg1" ve="3">\A\s+|\s+\z</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>597</code>
+			<Str sr="arg0" ve="3">%asd</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="2"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%smsbody2</Str>
+			<Str sr="arg1" ve="3">at</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%smsbody22</Str>
+			<Str sr="arg1" ve="3">on your credit card ending with</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%payeelong</Str>
+			<Str sr="arg1" ve="3">%smsbody221</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>345</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">%payeelong</Str>
+			<Str sr="arg2" ve="3">%length</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var payeename = payeelong.substring(1,23);
+var payeecity = payeelong.substring(24,37);
+var payeecountry = payeelong.substring(38,41);</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%smsbody222</Str>
+			<Str sr="arg1" ve="3">%space</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Card</Str>
+			<Str sr="arg1" ve="3">%smsbody2222</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
