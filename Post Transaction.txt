@@ -77,7 +77,7 @@ Whether or not the transaction is approved. If not supplied, transaction will be
 text
 flag_color
 Flag Color
-The transaction flag (red:Red,orange:Orange,yellow:Yellow,green:Green,blue:Blue,purple:Purple)
+The transaction flag (Red,Orange,Yellow,Green,Blue,Purple)
 =:==:=
 ",
 "import_id": "
