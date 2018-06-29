@@ -1,0 +1,94 @@
+{
+"transactions": [
+{
+"account_id": "
+=:==:=
+text
+account_id
+Account ID
+Account ID
+=:==:=
+",
+"date": "
+=:==:=
+text
+date
+Date
+yyyy-mm-dd
+=:==:=
+",
+"amount": 
+=:==:=
+text
+amount
+Amount
+The transaction amount in milliunits format (eg 123.45 = 123450).
+=:==:=
+,
+"payee_id": "
+=:==:=
+text
+payee_id
+Payee ID
+The payee for the transaction. Transfer payees are not permitted and will be ignored if supplied.
+=:==:=
+",
+"payee_name": "
+=:==:=
+text
+payee_name
+Payee Name
+The payee name. If a payee_name value is provided and payee_id is not included or has a null value, payee_name will be used to create or use an existing payee.
+=:==:=
+",
+"category_id": "
+=:==:=
+text
+category_id
+Category ID
+The category for the transaction. Split and Credit Card Payment categories are not permitted and will be ignored if supplied.
+=:==:=
+",
+"memo": "
+=:==:=
+text
+memo
+Memo
+Notes (optional) 
+=:==:=
+",
+"cleared": "
+=:==:=
+text
+cleared
+Cleared
+The cleared status of the transaction (Cleared,Uncleared,Reconciled) 
+=:==:=
+",
+"approved": 
+=:==:=
+text
+approved
+Approved
+Whether or not the transaction is approved. If not supplied, transaction will be unapproved by default.
+=:==:=
+,
+"flag_color": "
+=:==:=
+text
+flag_color
+Flag Color
+The transaction flag (Red,Orange,Yellow,Green,Blue,Purple)
+=:==:=
+",
+"import_id": "
+=:==:=
+text
+import_id
+Import ID
+If specified for a new transaction, the transaction will be treated as Imported and assigned this import_id. If another transaction on the same account with this same import_id is later attempted to be created, it will be skipped to prevent duplication.
+=:==:=
+"
+  }
+]
+}
