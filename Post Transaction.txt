@@ -58,16 +58,15 @@ Notes (optional)
 ",
 "cleared": "
 =:==:=
-options
+text
 cleared
 Cleared
-The cleared status of the transaction
-cleared:Cleared,uncleared:Uncleared,reconciled:Reconciled
+The cleared status of the transaction (Cleared,Uncleared,Reconciled) 
 =:==:=
 ",
 "approved": 
 =:==:=
-trueorfalse
+text
 approved
 Approved
 Whether or not the transaction is approved. If not supplied, transaction will be unapproved by default.
@@ -75,11 +74,10 @@ Whether or not the transaction is approved. If not supplied, transaction will be
 ,
 "flag_color": "
 =:==:=
-options
+text
 flag_color
-Flag_Color
-The transaction flag 
-red:Red,orange:Orange,yellow:Yellow,green:Green,blue:Blue,purple:Purple
+Flag Color
+The transaction flag (red:Red,orange:Orange,yellow:Yellow,green:Green,blue:Blue,purple:Purple)
 =:==:=
 ",
 "import_id": "
